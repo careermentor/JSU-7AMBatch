@@ -2,18 +2,35 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	
-<listeners>
+	<listeners>
 <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
 </listeners>
+
 	
   <test thread-count="5" name="Test">
     <classes>
-      
+      <class name="automation.FirstAutomation"/>
+      <class name="learnTestNG.TestScenario"/>
+      <class name="org.xyz.automation.fb.testcases.LoginFunctiolaity_DDF"/>
+      <class name="learnTestNG.TestScenario10"/>
+      <class name="org.xyz.automation.fb.datagenewrators.TestDataGen"/>
+      <class name="learnTestNG.TestScenario9"/>
+      <class name="automation.DifferentControl"/>
+      <class name="learnTestNG.TestScenario8"/>
+      <class name="learnTestNG.TestScenario7"/>
+      <class name="org.xyz.automation.fb.testcases.LoginFunctiolaity"/>
+      <class name="org.xyz.automation.fb.testcases.UOSignInFunc"/>
       <class name="automation.KeyMouseOperation"/>
       <class name="learnTestNG.TestScenario2"/>
       <class name="automation.BrowserControl"/>
-      
+      <class name="learnTestNG.TestScenario6"/>
+      <class name="automation.CaptureScreenshot"/>
+      <class name="learnTestNG.TestScenario5"/>
+      <class name="org.xyz.automation.fb.utilitiesClass.CaptureScreenshot"/>
+      <class name="automation.FetchDataRuntime"/>
+      <class name="learnTestNG.TestScenario4"/>
+      <class name="learnTestNG.TestScenario3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
