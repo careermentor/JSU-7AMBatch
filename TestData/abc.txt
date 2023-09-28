@@ -1,0 +1,5 @@
+this is data file
+we will write a program to read this data
+we hav writeen a program using while loop
+automation=selenium
+proglang=java
